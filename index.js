@@ -1,8 +1,8 @@
 const request = require('request');
 const lineReader = require('line-reader');
 
-token = "ODczNjYxNTIxODUzNTYyOTEw.YQ7qsg.XUAKHF6gpK3xzFdEcRGPQNQfpAM"
-guildID = "884020570491093004"
+token = ""
+guildID = ""
 
 headers = {'Authorization': "Bot " + token}
 lineReader.eachLine('members.txt', function(id) {
